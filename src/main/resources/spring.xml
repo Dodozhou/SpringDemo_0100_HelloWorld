@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD DEAN//EN"
+        "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+    <bean id="hello" class="com.star.action.EnHello">
+        <property name="msg" value="Spring World!"/>
+    </bean>
+
+    <!--
+    当将EnHello改为ChHello后程序输出结果也会改变，这就实现了只修改配置文件来更新程序
+    <bean id="hello" class="com.star.action.EnHello">
+        <property name="msg" value="Spring World!"/>
+    </bean>-->
+
+</beans>
